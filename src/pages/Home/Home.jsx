@@ -1,4 +1,5 @@
 import Banner from "../../component/Banner";
+import VisitPlan from "../../component/VisitPlan";
 import Welocome from "../../component/Welocome";
 import WhyChooseUs from "../../component/WhyChooseUs";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner></Banner>
       <Welocome></Welocome>
       <WhyChooseUs></WhyChooseUs>
+      <VisitPlan></VisitPlan>
     </div>
   );
 };
