@@ -155,9 +155,9 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <a>
+          <NavLink to='/'>
             <Logo />
-          </a>
+          </NavLink>
         </div>
 
         <div className='navbar-center hidden lg:flex'>
