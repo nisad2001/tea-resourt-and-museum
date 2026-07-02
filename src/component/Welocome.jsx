@@ -49,12 +49,12 @@ const Welcome = () => {
         {/* Right Side (Width decreased to 2/3) */}
         <div className='w-full lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-4 justify-center lg:pe-4'>
           {/* Card 1 */}
-          <div className='relative flex flex-col bg-white rounded-xl shadow-md overflow-visible w-full max-w-sm border border-gray-100 transition-all duration-300 hover:shadow-xl mx-auto'>
+          <div className='relative flex flex-col bg-white rounded-xl shadow-md overflow-visible w-full max-w-sm border border-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-[1.03] mx-auto cursor-pointer'>
             <div className='w-full h-36 overflow-hidden rounded-t-xl'>
               <img
                 src='/asset/tea-luxurious-stay.jpg'
                 alt='Luxurious Stay'
-                className='w-full h-full object-cover transition-transform duration-500 hover:scale-105'
+                className='w-full h-full object-cover'
               />
             </div>
             <div className='absolute top-36 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20'>
@@ -77,12 +77,12 @@ const Welcome = () => {
           </div>
 
           {/* Card 2 */}
-          <div className='relative flex flex-col bg-white rounded-xl shadow-md overflow-visible w-full max-w-sm border border-gray-100 transition-all duration-300 hover:shadow-xl mx-auto'>
+          <div className='relative flex flex-col bg-white rounded-xl shadow-md overflow-visible w-full max-w-sm border border-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-[1.03] mx-auto cursor-pointer'>
             <div className='w-full h-36 overflow-hidden rounded-t-xl'>
               <img
                 src='/asset/tea-museum.jpg'
                 alt='Tea Museum'
-                className='w-full h-full object-cover transition-transform duration-500 hover:scale-105'
+                className='w-full h-full object-cover'
               />
             </div>
             <div className='absolute top-36 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20'>
@@ -105,12 +105,12 @@ const Welcome = () => {
           </div>
 
           {/* Card 3 */}
-          <div className='relative flex flex-col bg-white rounded-xl shadow-md overflow-visible w-full max-w-sm border border-gray-100 transition-all duration-300 hover:shadow-xl mx-auto'>
+          <div className='relative flex flex-col bg-white rounded-xl shadow-md overflow-visible w-full max-w-sm border border-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-[1.03] mx-auto cursor-pointer'>
             <div className='w-full h-36 overflow-hidden rounded-t-xl'>
               <img
                 src='/asset/tea-garden-experience.jpg'
                 alt='Nature Walk'
-                className='w-full h-full object-cover transition-transform duration-500 hover:scale-105'
+                className='w-full h-full object-cover'
               />
             </div>
             <div className='absolute top-36 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20'>
@@ -133,12 +133,12 @@ const Welcome = () => {
           </div>
 
           {/* Card 4 */}
-          <div className='relative flex flex-col bg-white rounded-xl shadow-md overflow-visible w-full max-w-sm border border-gray-100 transition-all duration-300 hover:shadow-xl mx-auto'>
+          <div className='relative flex flex-col bg-white rounded-xl shadow-md overflow-visible w-full max-w-sm border border-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-[1.03] mx-auto cursor-pointer'>
             <div className='w-full h-36 overflow-hidden rounded-t-xl'>
               <img
                 src='/asset/tea-delicious-dining.jpg'
                 alt='Tea Tasting'
-                className='w-full h-full object-cover transition-transform duration-500 hover:scale-105'
+                className='w-full h-full object-cover'
               />
             </div>
             <div className='absolute top-36 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20'>
