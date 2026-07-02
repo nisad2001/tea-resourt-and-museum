@@ -165,7 +165,11 @@ const Navbar = () => {
         </div>
 
         <div className='navbar-end '>
-          <NavLink to='/book' className='btn uppercase rounded-sm bg-green-900'>
+          {/* Book Now বাটনে হোভার ও ক্লিক অ্যানিমেশন যোগ করা হয়েছে */}
+          <NavLink
+            to='/book'
+            className='btn uppercase rounded-md bg-green-900 text-white border-none hover:bg-green-800 transform hover:scale-105 active:scale-95 transition-all duration-200 shadow-sm'
+          >
             <FaCalendarDays />
             Book Now
           </NavLink>

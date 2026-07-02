@@ -204,8 +204,8 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Right Side Bottom Mini Card - hidden on small devices, flex on sm and up */}
-      <div className='hidden sm:flex absolute bottom-4 right-16 md:right-24 z-20 bg-white/90 backdrop-blur-xs text-black p-2 rounded-lg shadow-lg items-center gap-2 max-w-[180px] md:max-w-[220px] border border-gray-200/50 transition-all duration-300'>
+      {/* Right Side Bottom Mini Card - হোভার স্কেলিং এবং কার্সর পয়েন্টার যোগ করা হয়েছে */}
+      <div className='hidden sm:flex absolute bottom-4 right-16 md:right-24 z-20 bg-white/90 backdrop-blur-xs text-black p-2 rounded-lg shadow-lg items-center gap-2 max-w-[180px] md:max-w-[220px] border border-gray-200/50 cursor-pointer transform hover:scale-105 active:scale-95 transition-all duration-300 ease-out'>
         <img
           src='/asset/tea-resort-banner.jpg'
           className='w-12 h-12 object-cover rounded-md'
