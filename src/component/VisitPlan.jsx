@@ -9,7 +9,6 @@ const VisitPlan = () => {
     <div className='w-full px-4 py-8 bg-transparent'>
       <div className='max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-stretch justify-center w-full'>
         {/* Item 1 */}
-        {/* sm:flex-row এবং sm:items-center দিয়ে বড় স্ক্রিনে পাশাপাশি এবং মোবাইলে flex-col এ নিচে নিচে সেন্টার করা হয়েছে */}
         <div className='w-full flex flex-col sm:flex-row items-center gap-3 justify-center text-center sm:text-left'>
           <div className='flex-shrink-0'>
             <TbRadio className='text-green-800 text-3xl' />
@@ -69,13 +68,13 @@ const VisitPlan = () => {
           </div>
         </div>
 
-        {/* Item 5: Green Background */}
-        <div className='w-full bg-green-900 p-5 rounded-xl flex flex-col items-center justify-center text-center gap-2 shadow-sm transition-all duration-300 hover:bg-green-950 min-h-[110px] sm:min-h-0'>
-          <h3 className='text-sm md:text-base font-bold text-white leading-tight'>
+        {/* Item 5: Green Background (Height আরও কমানো হয়েছে) */}
+        <div className='w-full max-w-[240px] mx-auto bg-green-900 p-2 rounded-xl flex flex-col items-center justify-center text-center gap-1 shadow-sm transition-all duration-300 hover:bg-green-950 min-h-0'>
+          <h3 className='text-xs md:text-sm font-bold text-white leading-tight'>
             Plan Your Visit Today!
           </h3>
-          <button className='btn btn-xs sm:btn-sm text-green-900 bg-white border-none uppercase hover:bg-amber-400 hover:text-gray-900 flex items-center justify-center gap-1 px-4 py-1.5 rounded-md font-semibold tracking-wider transition-all cursor-pointer w-fit text-[11px] md:text-xs shadow-sm'>
-            Book Now <ArrowIcon className='text-lg md:text-xl' />
+          <button className='btn btn-xs text-green-900 bg-white border-none uppercase hover:bg-amber-400 hover:text-gray-900 flex items-center justify-center gap-1 px-3 py-0.5 rounded-md font-semibold tracking-wider transition-all cursor-pointer w-fit text-[10px] md:text-xs shadow-sm'>
+            Book Now <ArrowIcon className='text-base md:text-lg' />
           </button>
         </div>
       </div>
