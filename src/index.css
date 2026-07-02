@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
+.brushfont {
+  font-family: "Alex Brush", cursive !important;
+  font-style: normal;
+}
