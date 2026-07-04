@@ -1,87 +1,60 @@
 import { AiOutlineSecurityScan } from "react-icons/ai";
 import { BsCup } from "react-icons/bs";
-import { MdOutlineMuseum } from "react-icons/md";
+import { MdOutlineMuseum, MdOutlineKingBed } from "react-icons/md";
 import { TfiLocationPin } from "react-icons/tfi";
 
 const WhyChooseUs = () => {
+  const features = [
+    { icon: <MdOutlineMuseum />, title: "Beautiful\nTea Estate" },
+    { icon: <MdOutlineKingBed />, title: "Luxurious\nHospitality" },
+    { icon: <MdOutlineMuseum />, title: "World Class\nMuseum" },
+    { icon: <BsCup />, title: "Authentic\nTea Experience" },
+    { icon: <TfiLocationPin />, title: "Perfect Location\n& Environment" },
+    { icon: <AiOutlineSecurityScan />, title: "Security\n& Safe" },
+  ];
+
   return (
-    <div className='w-full bg-green-900 text-white px-4 pt-8 md:pt-12 pb-12 transition-all'>
+    <section className='w-full bg-green-900 text-white px-4 py-8 md:py-4'>
       <div className='max-w-7xl mx-auto'>
-        {/* Top Section: Title stays alone at the top */}
-        <div className='text-center md:text-left mb-10'>
-          <h1 className='text-3xl md:text-4xl text-center font-bold text-white leading-tight'>
+        {/* Section Title */}
+        <div className='text-center mb-12'>
+          <h1 className='text-3xl md:text-4xl font-bold leading-tight'>
             Why Choose Tea Resort and Museum?
           </h1>
         </div>
 
-        {/* Bottom Section: Split into two parts */}
-        <div className='flex flex-col lg:flex-row gap-6 items-center justify-between w-full overflow-hidden'>
-          {/* Left Side: Grabs more space dynamically */}
-          <div className='w-full lg:flex-1 flex flex-row gap-2 items-center justify-start overflow-x-auto pb-3 scrollbar-none snap-x'>
-            {/* Card 1 */}
-            <div className='flex-shrink-0 w-28 md:w-32 h-24 snap-center flex flex-col items-center justify-center text-center bg-white p-2 rounded-xl border border-gray-200/60 hover:border-amber-400 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.5)] hover:scale-105 transition-all duration-300 cursor-pointer group'>
-              <MdOutlineMuseum className='text-green-900 w-7 h-7 mb-1 group-hover:scale-110 transition-transform duration-300' />
-              <p className='font-bold text-[10px] md:text-xs leading-tight text-gray-800 whitespace-normal'>
-                Beautiful <br /> Tea Estate
-              </p>
-            </div>
-
-            {/* Card 2 */}
-            <div className='flex-shrink-0 w-28 md:w-32 h-24 snap-center flex flex-col items-center justify-center text-center bg-white p-2 rounded-xl border border-gray-200/60 hover:border-amber-400 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.5)] hover:scale-105 transition-all duration-300 cursor-pointer group'>
-              <MdOutlineMuseum className='text-green-900 w-7 h-7 mb-1 group-hover:scale-110 transition-transform duration-300' />
-              <p className='font-bold text-[10px] md:text-xs leading-tight text-gray-800 whitespace-normal'>
-                Luxurious <br /> Hospitality
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className='flex-shrink-0 w-28 md:w-32 h-24 snap-center flex flex-col items-center justify-center text-center bg-white p-2 rounded-xl border border-gray-200/60 hover:border-amber-400 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.5)] hover:scale-105 transition-all duration-300 cursor-pointer group'>
-              <MdOutlineMuseum className='text-green-900 w-7 h-7 mb-1 group-hover:scale-110 transition-transform duration-300' />
-              <p className='font-bold text-[10px] md:text-xs leading-tight text-gray-800 whitespace-normal'>
-                World Class <br /> Museum
-              </p>
-            </div>
-
-            {/* Card 4 */}
-            <div className='flex-shrink-0 w-28 md:w-32 h-24 snap-center flex flex-col items-center justify-center text-center bg-white p-2 rounded-xl border border-gray-200/60 hover:border-amber-400 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.5)] hover:scale-105 transition-all duration-300 cursor-pointer group'>
-              <BsCup className='text-green-900 w-7 h-7 mb-1 group-hover:scale-110 transition-transform duration-300' />
-              <p className='font-bold text-[10px] md:text-xs leading-tight text-gray-800 whitespace-normal'>
-                Authentic <br /> Tea Experience
-              </p>
-            </div>
-
-            {/* Card 5 */}
-            <div className='flex-shrink-0 w-28 md:w-32 h-24 snap-center flex flex-col items-center justify-center text-center bg-white p-2 rounded-xl border border-gray-200/60 hover:border-amber-400 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.5)] hover:scale-105 transition-all duration-300 cursor-pointer group'>
-              <TfiLocationPin className='text-green-900 w-7 h-7 mb-1 group-hover:scale-110 transition-transform duration-300' />
-              <p className='font-bold text-[10px] md:text-xs leading-tight text-gray-800 whitespace-normal'>
-                Perfect Location <br /> & Environment
-              </p>
-            </div>
-
-            {/* Card 6 */}
-            <div className='flex-shrink-0 w-28 md:w-32 h-24 snap-center flex flex-col items-center justify-center text-center bg-white p-2 rounded-xl border border-gray-200/60 hover:border-amber-400 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.5)] hover:scale-105 transition-all duration-300 cursor-pointer group'>
-              <AiOutlineSecurityScan className='text-green-900 w-7 h-7 mb-1 group-hover:scale-110 transition-transform duration-300' />
-              <p className='font-bold text-[10px] md:text-xs leading-tight text-gray-800 whitespace-normal'>
-                Security <br /> & Safe
-              </p>
-            </div>
+        {/* Features Container */}
+        <div className='flex flex-col lg:flex-row gap-8 items-center'>
+          {/* Grid Section: 2 cols mobile, 3 cols tablet, 6 cols desktop */}
+          <div className='w-full lg:flex-1 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4'>
+            {features.map((item, index) => (
+              <div
+                key={index}
+                className='flex flex-col items-center justify-center text-center bg-white p-4 rounded-xl border border-gray-100 hover:border-amber-400 hover:shadow-xl hover:scale-[1.03] transition-all duration-300 cursor-pointer group h-32'
+              >
+                <div className='text-green-900 w-8 h-8 mb-2 group-hover:scale-110 transition-transform'>
+                  {item.icon}
+                </div>
+                <p className='font-bold text-[11px] md:text-[12px] leading-[1.4] text-gray-800 whitespace-pre-line'>
+                  {item.title}
+                </p>
+              </div>
+            ))}
           </div>
 
-          {/* Right Side: Compact Big Card */}
-          <div className='w-full lg:w-auto lg:flex-shrink-0 flex items-center justify-center min-w-0'>
-            <div className='w-full max-w-xs lg:max-w-[260px] bg-white py-5 px-4 rounded-2xl border border-gray-100 hover:border-green-700 hover:shadow-[0_15px_30px_-5px_rgba(0,0,0,0.6)] hover:scale-105 transition-all duration-300 flex flex-col justify-center items-center text-center relative overflow-hidden group cursor-pointer'>
-              {/* Decorative Background Glow */}
-              <div className='absolute -top-10 -right-10 w-20 h-20 bg-green-950/5 rounded-full blur-xl group-hover:bg-green-950/10 transition-all duration-500'></div>
-
-              <MdOutlineMuseum className='text-green-900 w-10 h-10 md:w-14 md:h-14 mb-2 animate-pulse' />
-              <p className='text-black text-sm md:text-base font-medium leading-tight text-center'>
+          {/* Right Side: Big Highlight Card */}
+          <div className='w-full lg:w-[280px] flex-shrink-0'>
+            <div className='bg-white py-8 px-6 rounded-2xl border border-gray-100 hover:border-green-700 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex flex-col justify-center items-center text-center relative overflow-hidden group cursor-pointer h-full'>
+              <div className='absolute -top-10 -right-10 w-24 h-24 bg-green-950/5 rounded-full blur-xl'></div>
+              <MdOutlineMuseum className='text-green-900 w-12 h-12 mb-3 animate-pulse' />
+              <p className='text-black text-[15px] font-medium leading-[1.6]'>
                 Relax, Refresh and reconnect with Nature
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
