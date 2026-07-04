@@ -1,8 +1,13 @@
+import AboutBanner from "../component/AboutBanner";
+import AboutBottom from "../component/AboutBottom";
+import AboutNature from "../component/AboutNature";
+
 const AboutUs = () => {
   return (
     <div>
-      <h1>About Us</h1>
-      <p>Welcome to our company!</p>
+      <AboutBanner></AboutBanner>
+      <AboutNature></AboutNature>
+      <AboutBottom></AboutBottom>
     </div>
   );
 };

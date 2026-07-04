@@ -19,10 +19,10 @@ const Welcome = () => {
           </div>
 
           <div className='flex flex-col flex-1'>
-            <p className='uppercase text-xs font-bold tracking-widest text-green-800 mb-6'>
+            <p className='uppercase text-sm font-bold tracking-widest text-green-800 mb-4'>
               Welcome to
             </p>
-            <h1 className='text-2xl mb-6 sm:text-3xl font-bold text-green-900 leading-tight'>
+            <h1 className='text-2xl mb-4 sm:text-3xl font-bold text-green-900 leading-tight'>
               Tea Resort & Museum
             </h1>
 
@@ -32,7 +32,7 @@ const Welcome = () => {
               <div className='h-[2px] bg-green-600 w-12 rounded-full'></div>
             </div>
 
-            <p className='text-gray-600 mb-6 text-xs sm:text-sm leading-relaxed '>
+            <p className='text-gray-600 mb-4 text-xs sm:text-sm leading-relaxed '>
               Nestled in the lap of nature, our resort is surrounded by lush tea
               gardens and rolling hills. The museum showcases the rich history
               and culture of the Bangladesh tea industry.
