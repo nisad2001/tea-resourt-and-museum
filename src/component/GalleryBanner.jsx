@@ -5,7 +5,7 @@ const GalleryBanner = () => {
   return (
     <div className='relative w-full h-[200px] md:h-[300px] overflow-hidden shadow-lg'>
       <img
-        src='/public/asset/experience -walk.jpg'
+        src='/asset/experience -walk.jpg'
         alt='Gallery Banner'
         className='w-full h-full object-cover'
       />
