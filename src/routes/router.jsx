@@ -3,6 +3,9 @@ import RootLayout from "../layouts/RootLayout";
 import Home from "../pages/Home/Home";
 import AboutUs from "../pages/AboutUs";
 import Stay from "../pages/Stay";
+import Experience from "../pages/Experience";
+import Museum from "../pages/Museum";
+import Gallery from "../pages/Gallery";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +24,18 @@ export const router = createBrowserRouter([
       {
         path: "/stay",
         element: <Stay />,
+      },
+      {
+        path: "/museum",
+        element: <Museum />,
+      },
+      {
+        path: "/experience",
+        element: <Experience />,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery />,
       },
     ],
   },
