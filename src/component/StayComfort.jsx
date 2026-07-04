@@ -82,7 +82,7 @@ const StayComfort = () => {
             <div className='bg-gray-50 border border-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between cursor-pointer'>
               <div>
                 <img
-                  src='/public/asset/stay-room.jpg'
+                  src='/asset/stay-room.jpg'
                   alt='Deluxe Room'
                   className='w-full h-40 object-cover'
                 />
@@ -127,7 +127,7 @@ const StayComfort = () => {
             <div className='bg-gray-50 border border-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between cursor-pointer'>
               <div>
                 <img
-                  src='/public/asset/stay-cottage.jpg'
+                  src='/asset/stay-cottage.jpg'
                   alt='Family Cottage'
                   className='w-full h-40 object-cover'
                 />
@@ -172,7 +172,7 @@ const StayComfort = () => {
             <div className='bg-gray-50 border border-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between cursor-pointer'>
               <div>
                 <img
-                  src='/public/asset/stay-villa.jpg'
+                  src='/asset/stay-villa.jpg'
                   alt='Luxury Villa'
                   className='w-full h-40 object-cover'
                 />
@@ -217,7 +217,7 @@ const StayComfort = () => {
             <div className='bg-gray-50 border border-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between cursor-pointer'>
               <div>
                 <img
-                  src='/public/asset/stay-suite.jpg'
+                  src='/asset/stay-suite.jpg'
                   alt='Premium Suite'
                   className='w-full h-40 object-cover'
                 />

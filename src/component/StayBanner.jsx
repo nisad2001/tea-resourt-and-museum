@@ -11,7 +11,6 @@ const StayBanner = () => {
 
         <div className='hero-content text-neutral-content w-full justify-center md:justify-start px-8 md:px-16'>
           <div className='max-w-md text-center md:text-left'>
-            {/* মোবাইল ডিভাইসে text-4xl এবং মাঝারি বা বড় ডিভাইসে text-6xl করা হয়েছে */}
             <h1 className='mb-5 text-4xl md:text-6xl font-bold text-white tracking-wide'>
               Stay With Us
             </h1>
