@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const AboutBanner = () => {
+const StayBanner = () => {
   return (
     <div>
       <div
@@ -11,7 +11,10 @@ const AboutBanner = () => {
 
         <div className='hero-content text-neutral-content w-full justify-center md:justify-start px-8 md:px-16'>
           <div className='max-w-md text-center md:text-left'>
-            <h1 className='mb-5 text-6xl font-bold text-white'>About Us</h1>
+            {/* মোবাইল ডিভাইসে text-4xl এবং মাঝারি বা বড় ডিভাইসে text-6xl করা হয়েছে */}
+            <h1 className='mb-5 text-4xl md:text-6xl font-bold text-white tracking-wide'>
+              Stay With Us
+            </h1>
 
             <div className='text-sm text-white flex items-center justify-center md:justify-start gap-2'>
               <Link to='/' className='hover:text-green-500 transition-colors'>
@@ -19,7 +22,7 @@ const AboutBanner = () => {
               </Link>
               <span className='text-white'>&gt;</span>
               <span className='text-white hover:text-green-600 cursor-pointer'>
-                About Us
+                Stay
               </span>
             </div>
           </div>
@@ -29,4 +32,4 @@ const AboutBanner = () => {
   );
 };
 
-export default AboutBanner;
+export default StayBanner;
