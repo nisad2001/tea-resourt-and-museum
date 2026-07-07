@@ -13,7 +13,7 @@ const EventsBanner = () => {
       <div className='absolute inset-0 bg-black/40 flex items-center justify-center'>
         <div className='w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center sm:items-start text-center sm:text-left'>
           <h1 className='text-white font-bold text-3xl md:text-5xl tracking-wide drop-shadow-md leading-tight'>
-            Gallery
+            Events
           </h1>
 
           <div className='flex items-center gap-2 mt-2 mb-3 justify-center sm:justify-start'>

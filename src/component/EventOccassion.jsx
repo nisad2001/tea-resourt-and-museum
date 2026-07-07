@@ -8,7 +8,6 @@ import { RiMusic2Line } from "react-icons/ri";
 const EventOccassion = () => {
   return (
     <div className='max-w-7xl mx-auto px-4'>
-      {/* Header Section */}
       <div className='flex flex-col sm:flex-row items-center justify-between gap-6 mb-8 border-b border-gray-100 pb-6 text-center sm:text-left'>
         <div className='flex flex-col items-center sm:items-start gap-3'>
           <GiChestnutLeaf className='text-green-500 text-3xl animate-pulse' />
@@ -29,13 +28,11 @@ const EventOccassion = () => {
         </button>
       </div>
 
-      {/* Grid Section */}
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4'>
-        {/* Wedding Card */}
         <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative flex flex-col items-center text-center hover:scale-[1.02] transition-transform duration-300 cursor-pointer'>
           <figure className='h-40 w-full'>
             <img
-              src='/public/asset/event-wedding.jpg'
+              src='/asset/event-wedding.jpg'
               alt='Wedding'
               className='w-full h-full object-cover rounded-2xl'
             />
@@ -57,11 +54,10 @@ const EventOccassion = () => {
           </div>
         </div>
 
-        {/* Corporate Card */}
         <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative flex flex-col items-center text-center hover:scale-[1.02] transition-transform duration-300 cursor-pointer'>
           <figure className='h-40 w-full'>
             <img
-              src='/public/asset/event-corporate.jpg'
+              src='/asset/event-corporate.jpg'
               alt='Corporate'
               className='w-full h-full object-cover rounded-2xl'
             />
@@ -84,11 +80,10 @@ const EventOccassion = () => {
           </div>
         </div>
 
-        {/* Private Party Card */}
         <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative flex flex-col items-center text-center hover:scale-[1.02] transition-transform duration-300 cursor-pointer'>
           <figure className='h-40 w-full'>
             <img
-              src='/public/asset/event-private.jpg'
+              src='/asset/event-private.jpg'
               alt='Private'
               className='w-full h-full object-cover rounded-2xl'
             />
@@ -110,11 +105,10 @@ const EventOccassion = () => {
           </div>
         </div>
 
-        {/* Cultural Card */}
         <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative flex flex-col items-center text-center hover:scale-[1.02] transition-transform duration-300 cursor-pointer'>
           <figure className='h-40 w-full'>
             <img
-              src='/public/asset/event-cultural.jpg'
+              src='/asset/event-cultural.jpg'
               alt='Cultural'
               className='w-full h-full object-cover rounded-2xl'
             />
@@ -136,11 +130,10 @@ const EventOccassion = () => {
           </div>
         </div>
 
-        {/* Exhibitions Card */}
         <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative flex flex-col items-center text-center hover:scale-[1.02] transition-transform duration-300 cursor-pointer'>
           <figure className='h-40 w-full'>
             <img
-              src='/public/asset/event-exhibition.jpg'
+              src='/asset/event-exhibition.jpg'
               alt='Exhibitions'
               className='w-full h-full object-cover rounded-2xl'
             />
@@ -162,11 +155,10 @@ const EventOccassion = () => {
           </div>
         </div>
 
-        {/* Special Card */}
         <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative flex flex-col items-center text-center hover:scale-[1.02] transition-transform duration-300 cursor-pointer'>
           <figure className='h-40 w-full'>
             <img
-              src='/public/asset/event-occassion.jpg'
+              src='/asset/event-occassion.jpg'
               alt='Special'
               className='w-full h-full object-cover rounded-2xl'
             />
