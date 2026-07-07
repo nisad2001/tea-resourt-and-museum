@@ -34,7 +34,7 @@ const Welcome = () => {
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
             <figure className='h-40 w-full px-4 pt-4'>
               <img
-                src='/public/asset/stay-room.jpg'
+                src='/asset/stay-room.jpg'
                 alt='Room'
                 className='w-full h-full object-cover rounded-2xl'
               />
@@ -60,8 +60,8 @@ const Welcome = () => {
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
             <figure className='h-40 w-full px-4 pt-4'>
               <img
-                src='/public/asset/museum.jpg'
-                alt='Room'
+                src='/asset/museum.jpg'
+                alt='Museum'
                 className='w-full h-full object-cover rounded-2xl'
               />
             </figure>
@@ -86,8 +86,8 @@ const Welcome = () => {
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
             <figure className='h-40 w-full px-4 pt-4'>
               <img
-                src='/public/asset/tea-garden-experience.jpg'
-                alt='Room'
+                src='/asset/tea-garden-experience.jpg'
+                alt='Tea Garden'
                 className='w-full h-full object-cover rounded-2xl'
               />
             </figure>
@@ -112,8 +112,8 @@ const Welcome = () => {
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
             <figure className='h-40 w-full px-4 pt-4'>
               <img
-                src='/public/asset/tea-delicious-dining.jpg'
-                alt='Room'
+                src='/asset/tea-delicious-dining.jpg'
+                alt='Dining'
                 className='w-full h-full object-cover rounded-2xl'
               />
             </figure>
