@@ -31,7 +31,6 @@ const Navbar = () => {
           About Us
         </NavLink>
       </li>
-
       <li>
         <NavLink
           to='/stay'
@@ -44,7 +43,6 @@ const Navbar = () => {
           Stay
         </NavLink>
       </li>
-
       <li>
         <NavLink
           to='/museum'
@@ -57,7 +55,6 @@ const Navbar = () => {
           Museum
         </NavLink>
       </li>
-
       <li>
         <NavLink
           to='/experience'
@@ -67,10 +64,9 @@ const Navbar = () => {
               : ""
           }
         >
-          Experience
+          Experiences
         </NavLink>
       </li>
-
       <li>
         <NavLink
           to='/gallery'
@@ -83,7 +79,6 @@ const Navbar = () => {
           Gallery
         </NavLink>
       </li>
-
       <li>
         <NavLink
           to='/dining'
@@ -93,10 +88,9 @@ const Navbar = () => {
               : ""
           }
         >
-          Dining
+          dining
         </NavLink>
       </li>
-
       <li>
         <NavLink
           to='/event'
@@ -106,10 +100,9 @@ const Navbar = () => {
               : ""
           }
         >
-          Event
+          event
         </NavLink>
       </li>
-
       <li>
         <NavLink
           to='/contact'
@@ -119,7 +112,7 @@ const Navbar = () => {
               : ""
           }
         >
-          Contact
+          contact
         </NavLink>
       </li>
     </>
@@ -165,12 +158,10 @@ const Navbar = () => {
         </div>
 
         <div className='navbar-end '>
-          {/* Book Now বাটনে হোভার ও ক্লিক অ্যানিমেশন যোগ করা হয়েছে */}
           <NavLink
             to='/book'
             className='btn uppercase rounded-md bg-green-900 text-white border-none hover:bg-green-800 transform hover:scale-105 active:scale-95 transition-all duration-200 shadow-sm'
           >
-            <FaCalendarDays />
             Book Now
           </NavLink>
         </div>

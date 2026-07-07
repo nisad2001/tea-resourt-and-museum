@@ -6,6 +6,7 @@ import Stay from "../pages/Stay";
 import Experience from "../pages/Experience";
 import Museum from "../pages/Museum";
 import Gallery from "../pages/Gallery";
+import Dining from "../pages/Dining";
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: "/gallery",
         element: <Gallery />,
+      },
+      {
+        path: "/dining",
+        element: <Dining />,
       },
     ],
   },
