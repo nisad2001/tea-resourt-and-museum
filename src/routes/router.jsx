@@ -7,6 +7,7 @@ import Experience from "../pages/Experience";
 import Museum from "../pages/Museum";
 import Gallery from "../pages/Gallery";
 import Dining from "../pages/Dining";
+import Events from "../pages/Events";
 
 export const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
       {
         path: "/dining",
         element: <Dining />,
+      },
+      {
+        path: "/event",
+        element: <Events></Events>,
       },
     ],
   },

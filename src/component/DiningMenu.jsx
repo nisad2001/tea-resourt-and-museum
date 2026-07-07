@@ -8,7 +8,7 @@ import { CiFaceFrown } from "react-icons/ci";
 
 const DiningMenu = () => {
   return (
-    <div className='w-full max-w-screen-xl mx-auto px-4 py-4'>
+    <div className='w-full max-w-screen-xl mx-auto py-4'>
       <div className='flex flex-col lg:flex-row gap-8 items-center justify-between'>
         <div className='w-full lg:w-1/3 text-center lg:text-left'>
           <GiChestnutLeaf className='text-green-600 text-xl animate-pulse mb-2 mx-auto lg:mx-0' />
@@ -21,14 +21,14 @@ const DiningMenu = () => {
             blend Authentic Bangladesh flavour with international cuisine
             crafted with the freshest local source ingredients.
           </p>
-          <button className='btn btn-sm text-white bg-green-900 border-none uppercase px-6'>
+          <button className='btn btn-sm text-white bg-green-900 border-none uppercase'>
             View Menu <ArrowIcon className='text-lg' />
           </button>
         </div>
 
         <div className='w-full lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2'>
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
-            <figure className='h-40 w-full px-4 pt-4'>
+            <figure className='h-40 w-full'>
               <img
                 src='/asset/about-tea-resort.jpg'
                 alt='Breakfast'
@@ -50,7 +50,7 @@ const DiningMenu = () => {
           </div>
 
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
-            <figure className='h-40 w-full px-4 pt-4'>
+            <figure className='h-40 w-full'>
               <img
                 src='/asset/experience-cherish-4.jpg'
                 alt='Lunch'
@@ -72,7 +72,7 @@ const DiningMenu = () => {
           </div>
 
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
-            <figure className='h-40 w-full px-4 pt-4'>
+            <figure className='h-40 w-full'>
               <img
                 src='/asset/stay-cottage.jpg'
                 alt='Dinner'
@@ -94,7 +94,7 @@ const DiningMenu = () => {
           </div>
 
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
-            <figure className='h-40 w-full px-4 pt-4'>
+            <figure className='h-40 w-full'>
               <img
                 src='/asset/tea-museum.jpg'
                 alt='Snacks'
@@ -119,7 +119,7 @@ const DiningMenu = () => {
 
       <div className='w-full lg:max-w-7xl mx-auto shadow-xl bg-base-300 p-8 rounded-lg mt-8'>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4'>
-          <div className='flex items-center gap-4 lg:border-r-2 border-gray-400 pr-4'>
+          <div className='flex items-center gap-4 lg:border-r-2 border-gray-400'>
             <div className='text-green-900'>
               <FaCanadianMapleLeaf className='w-10 h-10' />
             </div>
@@ -131,7 +131,7 @@ const DiningMenu = () => {
             </div>
           </div>
 
-          <div className='flex items-center gap-4 lg:border-r-2 border-gray-400 pr-4'>
+          <div className='flex items-center gap-4 lg:border-r-2 border-gray-400'>
             <div className='text-green-900'>
               <GiGasStove className='w-10 h-10' />
             </div>
@@ -143,7 +143,7 @@ const DiningMenu = () => {
             </div>
           </div>
 
-          <div className='flex items-center gap-4 lg:border-r-2 border-gray-400 pr-4'>
+          <div className='flex items-center gap-4 lg:border-r-2 border-gray-400'>
             <div className='text-green-900'>
               <BsCupHot className='w-10 h-10' />
             </div>
@@ -155,7 +155,7 @@ const DiningMenu = () => {
             </div>
           </div>
 
-          <div className='flex items-center gap-4 lg:border-r-2 border-gray-400 pr-4'>
+          <div className='flex items-center gap-4 lg:border-r-2 border-gray-400'>
             <div className='text-green-900'>
               <FaCanadianMapleLeaf className='w-10 h-10' />
             </div>
