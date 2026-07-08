@@ -93,7 +93,7 @@ const BookSelectRoom = () => {
           <div className='bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer'>
             <div className='h-48 overflow-hidden'>
               <img
-                src='/public/asset/book-room-1.jpg'
+                src='/asset/book-room-1.jpg'
                 alt='Room'
                 className='w-full h-full object-cover'
               />
@@ -138,7 +138,7 @@ const BookSelectRoom = () => {
           <div className='bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer'>
             <div className='h-48 overflow-hidden'>
               <img
-                src='/public/asset/book-room-2.jpg'
+                src='/asset/book-room-2.jpg'
                 alt='Room'
                 className='w-full h-full object-cover'
               />
@@ -183,7 +183,7 @@ const BookSelectRoom = () => {
           <div className='bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer'>
             <div className='h-48 overflow-hidden'>
               <img
-                src='/public/asset/book-room-3.jpg'
+                src='/asset/book-room-3.jpg'
                 alt='Room'
                 className='w-full h-full object-cover'
               />
@@ -228,7 +228,7 @@ const BookSelectRoom = () => {
           <div className='bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer'>
             <div className='h-48 overflow-hidden'>
               <img
-                src='/public/asset/book-room-4.jpg'
+                src='/asset/book-room-4.jpg'
                 alt='Room'
                 className='w-full h-full object-cover'
               />
