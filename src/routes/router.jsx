@@ -8,6 +8,7 @@ import Museum from "../pages/Museum";
 import Gallery from "../pages/Gallery";
 import Dining from "../pages/Dining";
 import Events from "../pages/Events";
+import Contact from "../pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
       {
         path: "/event",
         element: <Events></Events>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     ],
   },

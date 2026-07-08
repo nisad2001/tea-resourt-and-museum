@@ -7,58 +7,55 @@ import {
 } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 import Logo from "./Logo";
+import { FaCcMastercard, FaCcVisa } from "react-icons/fa6";
+import { SiBackstageCasting } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-green-950 text-white/90 pt-8 pb-4 px-5 border-t border-green-900'>
-      <div className='max-w-7xl mx-auto flex flex-col gap-8 pb-6 border-b border-white/10'>
-        {/* Column 1: Logo & Socials */}
-        <div className='flex flex-col items-center text-center lg:items-start lg:text-left gap-3'>
-          <NavLink to='/'>
-            <Logo />
-          </NavLink>
-          <p className='text-sm leading-relaxed text-white/70 max-w-sm'>
-            A perfect destination for nature, heritage and unforgettable
-            memories.
-          </p>
-          <div className='flex gap-3 mt-2'>
-            {[FaFacebookF, FaInstagram, FaYoutube, FaTwitter].map(
-              (Icon, idx) => (
-                <a
-                  key={idx}
-                  href='#'
-                  className='p-2 rounded-full border border-white/30 hover:border-white hover:bg-white hover:text-green-950 transition-all duration-300'
-                >
-                  <Icon className='text-sm' />
-                </a>
-              ),
-            )}
+    <footer className='w-full bg-[#0a2e1d] text-white pt-10 pb-5 px-5'>
+      <div className='max-w-7xl mx-auto'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-8'>
+          <div className='lg:col-span-2 flex flex-col gap-3 items-start'>
+            <NavLink to='/'>
+              <Logo />
+            </NavLink>
+            <p className='text-sm text-gray-300 max-w-xs'>
+              A perfect destination for nature, heritage and unforgettable
+              memories.
+            </p>
+            <div className='flex gap-2 mt-2'>
+              {[FaFacebookF, FaInstagram, FaYoutube, FaTwitter].map(
+                (Icon, idx) => (
+                  <a
+                    key={idx}
+                    href='#'
+                    className='w-8 h-8 flex items-center justify-center rounded-full border border-gray-500 hover:bg-white hover:text-[#0a2e1d] transition-all'
+                  >
+                    <Icon size={14} />
+                  </a>
+                ),
+              )}
+            </div>
           </div>
-        </div>
 
-        {/* Grid Container for Links */}
-        <div className='grid grid-cols-2 sm:grid-cols-4 gap-8 text-center sm:text-left'>
-          {/* Quick Links */}
-          <div className='flex flex-col gap-2'>
-            <h3 className='font-bold uppercase tracking-wider text-white text-sm mb-1'>
-              Quick Links
-            </h3>
-            <div className='flex flex-col gap-1.5 text-xs sm:text-sm text-white/70'>
+          <div className='lg:col-span-1'>
+            <h3 className='font-bold text-sm mb-4 uppercase'>Quick Links</h3>
+            <div className='grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-gray-300'>
               {[
                 "Home",
-                "About Us",
-                "Stay",
-                "Museum",
-                "Experience",
                 "Gallery",
+                "About Us",
                 "Dining",
+                "Stay",
                 "Events",
+                "Museum",
                 "Contact",
+                "Experience",
               ].map((item) => (
                 <Link
                   key={item}
                   to={`/${item.toLowerCase().replace(" ", "")}`}
-                  className='hover:text-amber-400 transition-colors'
+                  className='hover:text-amber-400'
                 >
                   {item}
                 </Link>
@@ -66,12 +63,9 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Useful Links */}
-          <div className='flex flex-col gap-2'>
-            <h3 className='font-bold uppercase tracking-wider text-white text-sm mb-1'>
-              Policies
-            </h3>
-            <div className='flex flex-col gap-1.5 text-xs sm:text-sm text-white/70'>
+          <div className='lg:col-span-1'>
+            <h3 className='font-bold text-sm mb-4 uppercase'>Useful Links</h3>
+            <div className='flex flex-col gap-2 text-sm text-gray-300'>
               {[
                 "Privacy Policy",
                 "Terms & Conditions",
@@ -79,56 +73,66 @@ const Footer = () => {
                 "Cancellation Policy",
                 "FAQ",
               ].map((item) => (
-                <Link
-                  key={item}
-                  to={`/${item.toLowerCase().replace(/ & /g, "-").replace(/ /g, "-")}`}
-                  className='hover:text-amber-400 transition-colors'
-                >
+                <Link key={item} to='#' className='hover:text-amber-400'>
                   {item}
                 </Link>
               ))}
             </div>
           </div>
 
-          {/* Contact Us */}
-          <div className='flex flex-col gap-2 col-span-2 sm:col-span-1'>
-            <h3 className='font-bold uppercase tracking-wider text-white text-sm mb-1'>
-              Contact Us
-            </h3>
-            <div className='flex flex-col gap-2 text-xs sm:text-sm text-white/70 items-center sm:items-start'>
+          <div className='lg:col-span-1'>
+            <h3 className='font-bold text-sm mb-4 uppercase'>Contact Us</h3>
+            <div className='flex flex-col gap-2 text-sm text-gray-300'>
               <div className='flex items-center gap-2'>
-                <MdOutlinePhone className='text-amber-400' /> +880 1712 345 678
+                <MdOutlinePhone /> +880 1712 345 678
               </div>
               <div className='flex items-center gap-2'>
-                <MdOutlineMail className='text-amber-400' /> info@tearesort.com
+                <MdOutlineMail /> info@tearesort.com
               </div>
-              <div className='flex items-start gap-2 text-left'>
-                <MdOutlineLocationOn className='text-amber-400 mt-0.5' />{" "}
-                Sreemangal, Moulvibazar
+              <div className='flex items-center gap-2'>
+                <TbWorld /> www.tearesort.com
+              </div>
+              <div className='flex items-start gap-2'>
+                <MdOutlineLocationOn className='mt-1' /> Sreemangal, Moulvibazar
               </div>
             </div>
           </div>
 
-          {/* Newsletter */}
-          <div className='flex flex-col gap-3 col-span-2 sm:col-span-1'>
-            <h3 className='font-bold uppercase tracking-wider text-white text-sm mb-1'>
-              Newsletter
-            </h3>
-            <input
-              type='email'
-              placeholder='Your Email'
-              className='w-full bg-white/10 text-white text-xs px-3 py-2 rounded focus:outline-none focus:ring-1 focus:ring-amber-400'
-            />
-            <button className='w-full bg-green-800 hover:bg-green-700 text-white text-xs py-2 uppercase tracking-wider rounded transition-all'>
-              Subscribe
-            </button>
+          {/* Newsletter & Payments Container */}
+          <div className='lg:col-span-1'>
+            <div className='flex flex-row gap-6'>
+              {/* Newsletter Div */}
+              <div className='flex-1'>
+                <h3 className='font-bold text-sm mb-4 uppercase'>Newsletter</h3>
+                <p className='text-xs text-gray-300 mb-2'>
+                  Subscribe to get updates & offers
+                </p>
+                <input
+                  type='email'
+                  placeholder='Your Email'
+                  className='w-full p-2 text-black text-sm mb-2 rounded'
+                />
+                <button className='w-full bg-[#1a4a35] hover:bg-[#2a6a4f] py-2 text-xs uppercase'>
+                  Subscribe
+                </button>
+              </div>
+
+              {/* Payment Div */}
+              <div className='flex-none'>
+                <h3 className='font-bold text-sm mb-4 uppercase'>We Accept</h3>
+                <div className='flex flex-row gap-2 text-2xl text-white'>
+                  <FaCcVisa />
+                  <FaCcMastercard />
+                  <SiBackstageCasting />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Copyright */}
-      <div className='pt-4 text-center text-[10px] sm:text-xs text-white/50'>
-        © 2026 Tea Resort & Museum. All Rights Reserved.
+        <div className='text-center text-xs text-gray-500 border-t border-gray-700 pt-5'>
+          © 2026 Tea Resort & Museum. All Rights Reserved.
+        </div>
       </div>
     </footer>
   );

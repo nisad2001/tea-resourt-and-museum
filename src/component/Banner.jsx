@@ -39,7 +39,7 @@ const Banner = () => {
           >
             <img
               src='/asset/tea-resort-banner.jpg'
-              className='w-full h-64 sm:h-[400px] lg:h-[500px] object-cover'
+              className='w-full h-64 sm:h-[400px] lg:h-[350px] object-cover'
               alt={slide.alt}
             />
 
