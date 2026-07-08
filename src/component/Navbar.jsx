@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import { NavLink } from "react-router-dom";
-import { FaCalendarDays } from "react-icons/fa6";
 
 const Navbar = () => {
   const nav = (

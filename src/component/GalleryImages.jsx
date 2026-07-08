@@ -23,63 +23,63 @@ const GalleryImages = () => {
       </div>
 
       <div className='max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/about-tea-resort.jpg'
             alt='Gallery 1'
             className='w-full h-48 object-cover transition-transform duration-300 hover:scale-105'
           />
         </div>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/experienc-tea-tasting.jpg'
             alt='Gallery 2'
             className='w-full h-48 object-cover transition-transform duration-300 hover:scale-105'
           />
         </div>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/stay-villa.jpg'
             alt='Gallery 3'
             className='w-full h-48 object-cover transition-transform duration-300 hover:scale-105'
           />
         </div>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/experience-cherish-1.jpg'
             alt='Gallery 4'
             className='w-full h-48 object-cover transition-transform duration-300 hover:scale-105'
           />
         </div>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/experience-cherish-2.jpg'
             alt='Gallery 5'
             className='w-full h-48 object-cover transition-transform duration-300 hover:scale-105'
           />
         </div>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/experience-cherish-3.jpg'
             alt='Gallery 6'
             className='w-full h-48 object-cover transition-transform duration-300 hover:scale-105'
           />
         </div>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/experience-cherish-4.jpg'
             alt='Gallery 7'
             className='w-full h-48 object-cover transition-transform duration-300 hover:scale-105'
           />
         </div>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/experience-cherish-5.jpg'
             alt='Gallery 8'
             className='w-full h-48 object-cover transition-transform duration-300 hover:scale-105'
           />
         </div>
-        <div className='overflow-hidden rounded-xl shadow-sm'>
+        <div className='overflow-hidden rounded-xl shadow-sm cursor-pointer'>
           <img
             src='/asset/experience-cherish-6.jpg'
             alt='Gallery 9'

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const AboutBanner = () => {
   return (
@@ -18,9 +18,16 @@ const AboutBanner = () => {
                 Home
               </Link>
               <span className='text-white'>&gt;</span>
-              <span className='text-white hover:text-green-600 cursor-pointer'>
+              <NavLink
+                to='/about'
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-green-500 font-bold"
+                    : "text-white hover:text-green-600 transition-colors"
+                }
+              >
                 About Us
-              </span>
+              </NavLink>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ const EventUpcoming = () => {
         <h2 className='text-2xl font-bold text-green-900'>Upcoming Events</h2>
       </div>
 
-      <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+      <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         {/* Card 1 */}
         <div className='col-span-2 md:col-span-1 border border-gray-200 rounded-2xl p-4 bg-white shadow-sm flex flex-col lg:flex-row gap-3 hover:shadow-lg transition-shadow duration-300'>
           <div className='flex flex-row gap-2 w-full lg:w-auto justify-center'>
@@ -120,7 +120,7 @@ const EventUpcoming = () => {
         </div>
 
         {/* 4th Card */}
-        <div className='col-span-2 md:col-span-1 bg-green-900 text-white p-5 rounded-2xl flex flex-col justify-center gap-3 hover:shadow-lg transition-shadow duration-300'>
+        {/* <div className='col-span-2 md:col-span-1 bg-green-900 text-white p-5 rounded-2xl flex flex-col justify-center gap-3 hover:shadow-lg transition-shadow duration-300'>
           <h3 className='text-lg font-bold'>Plan Your Event with us</h3>
           <p className='text-[16px] opacity-90'>
             Let us help you create an event that your guests will never forget.
@@ -128,7 +128,7 @@ const EventUpcoming = () => {
           <button className='border border-white text-white px-4 py-2 rounded-lg text-[16px] font-bold flex items-center gap-1 hover:bg-white hover:text-green-900 transition w-fit'>
             GET IN TOUCH <FaArrowRight />
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

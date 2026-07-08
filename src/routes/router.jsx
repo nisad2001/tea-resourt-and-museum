@@ -9,6 +9,7 @@ import Gallery from "../pages/Gallery";
 import Dining from "../pages/Dining";
 import Events from "../pages/Events";
 import Contact from "../pages/Contact";
+import BookNow from "../pages/BookNow";
 
 export const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>,
+      },
+      {
+        path: "/book",
+        element: <BookNow></BookNow>,
       },
     ],
   },
