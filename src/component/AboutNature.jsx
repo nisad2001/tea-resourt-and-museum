@@ -23,7 +23,7 @@ const AboutNature = () => {
             <div className='h-[2px] bg-green-600 w-16 sm:w-30 rounded-full'></div>
           </div>
 
-          <p className='text-gray-600 mb-6 text-xs sm:text-sm md:text-base leading-relaxed max-w-md md:max-w-none'>
+          <p className='text-sm sm:text-base md:text-lg text-gray-600 mb-6 leading-relaxed max-w-lg md:max-w-2xl'>
             Nestled in the lap of nature, Tea Resort & Museum is surrounded by
             lush tea gardens and rolling hills. The museum showcases the rich
             history and culture of the Bangladesh tea industry.

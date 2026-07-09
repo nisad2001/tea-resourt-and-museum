@@ -4,7 +4,6 @@ import { BsCupHot } from "react-icons/bs";
 import { GiChestnutLeaf } from "react-icons/gi";
 import { IoWifi } from "react-icons/io5";
 import { LuMonitor } from "react-icons/lu";
-import { Link } from "react-router-dom";
 
 const StayComfort = () => {
   const [activeCategory, setActiveCategory] = useState("ALL ROOMS");
@@ -33,10 +32,11 @@ const StayComfort = () => {
               perfect stay with garden or hill views.
             </p>
 
-            <div className='flex flex-wrap gap-2 mb-6 justify-center md:justify-start w-full'>
+            {/* বাটন সেকশন: ছোট ডিভাইসের জন্য প্যাডিং ও গ্যাপ অপ্টিমাইজ করা হয়েছে */}
+            <div className='flex flex-wrap gap-1.5 sm:gap-2 mb-6 justify-center md:justify-start w-full'>
               <button
                 onClick={() => setActiveCategory("ALL ROOMS")}
-                className={`px-4 py-2 rounded-md text-xs font-medium uppercase tracking-wider transition-all duration-300 border cursor-pointer ${
+                className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-md text-[10px] sm:text-xs font-medium uppercase tracking-wider transition-all duration-300 border cursor-pointer ${
                   activeCategory === "ALL ROOMS"
                     ? "border-green-600 text-green-600 font-bold bg-green-50/30"
                     : "border-transparent text-gray-500 hover:text-green-600"
@@ -46,7 +46,7 @@ const StayComfort = () => {
               </button>
               <button
                 onClick={() => setActiveCategory("COTTAGE")}
-                className={`px-4 py-2 rounded-md text-xs font-medium uppercase tracking-wider transition-all duration-300 border cursor-pointer ${
+                className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-md text-[10px] sm:text-xs font-medium uppercase tracking-wider transition-all duration-300 border cursor-pointer ${
                   activeCategory === "COTTAGE"
                     ? "border-green-600 text-green-600 font-bold bg-green-50/30"
                     : "border-transparent text-gray-500 hover:text-green-600"
@@ -56,7 +56,7 @@ const StayComfort = () => {
               </button>
               <button
                 onClick={() => setActiveCategory("VILLA")}
-                className={`px-4 py-2 rounded-md text-xs font-medium uppercase tracking-wider transition-all duration-300 border cursor-pointer ${
+                className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-md text-[10px] sm:text-xs font-medium uppercase tracking-wider transition-all duration-300 border cursor-pointer ${
                   activeCategory === "VILLA"
                     ? "border-green-600 text-green-600 font-bold bg-green-50/30"
                     : "border-transparent text-gray-500 hover:text-green-600"
@@ -66,7 +66,7 @@ const StayComfort = () => {
               </button>
               <button
                 onClick={() => setActiveCategory("SUITE")}
-                className={`px-4 py-2 rounded-md text-xs font-medium uppercase tracking-wider transition-all duration-300 border cursor-pointer ${
+                className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-md text-[10px] sm:text-xs font-medium uppercase tracking-wider transition-all duration-300 border cursor-pointer ${
                   activeCategory === "SUITE"
                     ? "border-green-600 text-green-600 font-bold bg-green-50/30"
                     : "border-transparent text-gray-500 hover:text-green-600"
@@ -114,12 +114,12 @@ const StayComfort = () => {
                 </div>
               </div>
               <div className='p-3 pt-0'>
-                <Link
-                  to='/room/1'
-                  className='block text-center border border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-xs font-medium py-2 rounded-md transition-all duration-300 uppercase tracking-wider cursor-pointer'
+                <button
+                  type='button'
+                  className='w-full text-center border border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-xs font-medium py-2 rounded-md transition-all duration-300 uppercase tracking-wider cursor-pointer'
                 >
                   View Details
-                </Link>
+                </button>
               </div>
             </div>
 
@@ -159,12 +159,12 @@ const StayComfort = () => {
                 </div>
               </div>
               <div className='p-3 pt-0'>
-                <Link
-                  to='/room/2'
-                  className='block text-center border border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-xs font-medium py-2 rounded-md transition-all duration-300 uppercase tracking-wider cursor-pointer'
+                <button
+                  type='button'
+                  className='w-full text-center border border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-xs font-medium py-2 rounded-md transition-all duration-300 uppercase tracking-wider cursor-pointer'
                 >
                   View Details
-                </Link>
+                </button>
               </div>
             </div>
 
@@ -204,12 +204,12 @@ const StayComfort = () => {
                 </div>
               </div>
               <div className='p-3 pt-0'>
-                <Link
-                  to='/room/3'
-                  className='block text-center border border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-xs font-medium py-2 rounded-md transition-all duration-300 uppercase tracking-wider cursor-pointer'
+                <button
+                  type='button'
+                  className='w-full text-center border border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-xs font-medium py-2 rounded-md transition-all duration-300 uppercase tracking-wider cursor-pointer'
                 >
                   View Details
-                </Link>
+                </button>
               </div>
             </div>
 
@@ -249,12 +249,12 @@ const StayComfort = () => {
                 </div>
               </div>
               <div className='p-3 pt-0'>
-                <Link
-                  to='/room/4'
-                  className='block text-center border border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-xs font-medium py-2 rounded-md transition-all duration-300 uppercase tracking-wider cursor-pointer'
+                <button
+                  type='button'
+                  className='w-full text-center border border-green-600 text-green-600 hover:bg-green-600 hover:text-white text-xs font-medium py-2 rounded-md transition-all duration-300 uppercase tracking-wider cursor-pointer'
                 >
                   View Details
-                </Link>
+                </button>
               </div>
             </div>
           </div>

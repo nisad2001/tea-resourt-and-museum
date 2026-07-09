@@ -8,7 +8,7 @@ import { RiMusic2Line } from "react-icons/ri";
 const EventOccassion = () => {
   return (
     <div className='max-w-7xl mx-auto px-4'>
-      <div className='flex flex-col sm:flex-row items-center justify-between gap-6 mb-8 border-b border-gray-100 pb-6 text-center sm:text-left'>
+      <div className='flex flex-col sm:flex-row items-center justify-between gap-6  border-b border-gray-100 pb-6 text-center sm:text-left'>
         <div className='flex flex-col items-center sm:items-start gap-3'>
           <GiChestnutLeaf className='text-green-500 text-3xl animate-pulse' />
           <div className='flex flex-col gap-1'>

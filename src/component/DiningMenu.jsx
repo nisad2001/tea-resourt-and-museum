@@ -38,7 +38,7 @@ const DiningMenu = () => {
             <div className='absolute top-32 left-1/2 transform -translate-x-1/2 bg-green-900 text-white p-3 rounded-full shadow-lg z-10'>
               <MdRestaurantMenu className='text-2xl' />
             </div>
-            <div className='card-body mt-6 items-center'>
+            <div className='card-body  items-center'>
               <h3 className='card-title text-lg font-bold text-green-900'>
                 Main Restaurent
               </h3>
@@ -60,7 +60,7 @@ const DiningMenu = () => {
             <div className='absolute top-32 left-1/2 transform -translate-x-1/2 bg-green-900 text-white p-3 rounded-full shadow-lg z-10'>
               <MdOutlineMuseum className='text-2xl' />
             </div>
-            <div className='card-body mt-6 items-center'>
+            <div className='card-body  items-center'>
               <h3 className='card-title text-lg font-bold text-green-900'>
                 Garden Terrace
               </h3>
@@ -82,7 +82,7 @@ const DiningMenu = () => {
             <div className='absolute top-32 left-1/2 transform -translate-x-1/2 bg-green-900 text-white p-3 rounded-full shadow-lg z-10'>
               <SiMusicbrainz className='text-2xl' />
             </div>
-            <div className='card-body mt-6 items-center'>
+            <div className='card-body  items-center'>
               <h3 className='card-title text-lg font-bold text-green-900'>
                 Tea Lounge
               </h3>
@@ -104,7 +104,7 @@ const DiningMenu = () => {
             <div className='absolute top-32 left-1/2 transform -translate-x-1/2 bg-green-900 text-white p-3 rounded-full shadow-lg z-10'>
               <GiMushroomHouse className='text-2xl' />
             </div>
-            <div className='card-body mt-6 items-center'>
+            <div className='card-body  items-center'>
               <h3 className='card-title text-lg font-bold text-green-900'>
                 Private Dining
               </h3>
