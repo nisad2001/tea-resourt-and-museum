@@ -1,3 +1,4 @@
+import { LuBookAudio } from "react-icons/lu";
 import Logo from "./Logo";
 import { NavLink } from "react-router-dom";
 
@@ -161,6 +162,7 @@ const Navbar = () => {
             to='/book'
             className='btn uppercase rounded-md bg-green-900 text-white border-none hover:bg-green-800 transform hover:scale-105 active:scale-95 transition-all duration-200 shadow-sm'
           >
+            <LuBookAudio />
             Book Now
           </NavLink>
         </div>

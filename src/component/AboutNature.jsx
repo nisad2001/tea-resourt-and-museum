@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward as ArrowIcon } from "react-icons/io";
 
 const AboutNature = () => {
   return (
-    <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12'>
+    <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6'>
       <div className='flex flex-col md:flex-row items-center gap-8 md:gap-12'>
         {/* Left Side Division */}
         <div className='flex-1 flex flex-col items-center md:items-start text-center md:text-left'>

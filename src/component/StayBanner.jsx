@@ -9,7 +9,7 @@ const StayBanner = () => {
       >
         <div className='hero-overlay bg-black/40'></div>
 
-        <div className='hero-content text-neutral-content w-full justify-center md:justify-start px-8 md:px-16'>
+        <div className='hero-content text-neutral-content w-full justify-center md:justify-start px-8 md:px-10'>
           <div className='max-w-md text-center md:text-left'>
             <h1 className='mb-5 text-4xl md:text-6xl font-bold text-white tracking-wide'>
               Stay With Us

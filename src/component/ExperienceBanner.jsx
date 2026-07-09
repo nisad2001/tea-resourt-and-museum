@@ -2,7 +2,7 @@ import { GiChestnutLeaf } from "react-icons/gi";
 
 const ExperienceBanner = () => {
   return (
-    <div className='relative w-full h-[260px] md:h-[400px] overflow-hidden shadow-lg'>
+    <div className='relative w-full h-[260px] md:h-[300px] overflow-hidden shadow-lg'>
       <img
         src='/asset/tea-garden-experience.jpg'
         alt='Tea Garden Experience'

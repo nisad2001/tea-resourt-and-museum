@@ -16,7 +16,7 @@ const ExperienceCherish = () => {
 
         {/* Right Side: View Gallery Button with Arrow Icon */}
         <div>
-          <button className='px-6 py-2.5 bg-green-600 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-200 flex items-center gap-2 group'>
+          <button className='px-6 py-2.5 bg-green-600 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 hover:cursor-pointer transition duration-200 flex items-center gap-2 group'>
             <span>View Gallery</span>
             <FaArrowRight className='text-sm transition-transform duration-200 group-hover:translate-x-1' />
           </button>

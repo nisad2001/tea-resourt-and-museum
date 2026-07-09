@@ -78,7 +78,7 @@ const BookAddOnService = () => {
             <p className='font-bold'>Total Amount</p>
             <p className='text-green-900 text-2xl font-bold'>BDT 0</p>
           </div>
-          <button className='bg-green-900 rounded-lg w-full p-3 text-white font-semibold hover:bg-green-800 transition'>
+          <button className='bg-green-900 rounded-lg w-full p-3 text-white font-semibold hover:bg-green-800 transition uppercase'>
             Proceed To Booking
           </button>
         </div>

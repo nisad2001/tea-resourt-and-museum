@@ -1,6 +1,6 @@
 const Logo = () => {
   return (
-    <div className='flex flex-col sm:flex-row items-center justify-center gap-2 text-center sm:text-left'>
+    <div className='flex flex-col sm:flex-row items-center justify-center gap-1 text-center sm:text-left'>
       <img
         className='w-12 h-12 sm:w-14 sm:h-14 object-contain block'
         src='/asset/Tea-resort logo.png'

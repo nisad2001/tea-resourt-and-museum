@@ -1,5 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
-import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaCcAmex,
+} from "react-icons/fa";
 import {
   MdOutlinePhone,
   MdOutlineMail,
@@ -100,30 +106,37 @@ const Footer = () => {
 
           {/* Newsletter & Payments Container */}
           <div className='lg:col-span-1'>
-            <div className='flex flex-row gap-6'>
+            <div className='flex flex-row gap-8'>
               {/* Newsletter Div */}
               <div className='flex-1'>
-                <h3 className='font-bold text-sm mb-4 uppercase'>Newsletter</h3>
-                <p className='text-xs text-gray-300 mb-2'>
+                <h3 className='font-bold text-sm mb-4 uppercase tracking-wider'>
+                  Newsletter
+                </h3>
+                <p className='text-xs text-gray-400 mb-3'>
                   Subscribe to get updates & offers
                 </p>
-                <input
-                  type='email'
-                  placeholder='Your Email'
-                  className='w-full p-2 text-black text-sm mb-2 rounded'
-                />
-                <button className='w-full bg-[#1a4a35] hover:bg-[#2a6a4f] py-2 text-xs uppercase'>
-                  Subscribe
-                </button>
+                <div className='flex flex-col gap-2'>
+                  <input
+                    type='email'
+                    placeholder='Your Email'
+                    className='w-full p-2 text-black text-sm rounded border border-gray-600 focus:outline-none focus:ring-1 focus:ring-[#1a4a35]'
+                  />
+                  <button className='w-full bg-[#1a4a35] hover:bg-[#205a41] transition-colors py-2 text-xs uppercase font-semibold text-white rounded'>
+                    Subscribe
+                  </button>
+                </div>
               </div>
 
               {/* Payment Div */}
               <div className='flex-none'>
-                <h3 className='font-bold text-sm mb-4 uppercase'>We Accept</h3>
-                <div className='flex flex-row gap-2 text-2xl text-white'>
-                  <FaCcVisa />
-                  <FaCcMastercard />
-                  <SiBackstageCasting />
+                <h3 className='font-bold text-sm mb-4 uppercase tracking-wider'>
+                  We Accept
+                </h3>
+                <div className='flex flex-row gap-4 text-3xl text-gray-400'>
+                  {/* স্ট্যান্ডার্ড লুকের জন্য অপাসিটি এবং গ্রে কালার ব্যবহার করা হয়েছে */}
+                  <FaCcVisa className='hover:text-white transition-colors cursor-pointer' />
+                  <FaCcMastercard className='hover:text-white transition-colors cursor-pointer' />
+                  <FaCcAmex className='hover:text-white transition-colors cursor-pointer' />
                 </div>
               </div>
             </div>

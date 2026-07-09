@@ -16,7 +16,7 @@ const ExperienceCards = () => {
               <FaLeaf className='text-white text-xl' />
             </div>
             <h3 className='text-gray-800 font-bold text-xl mb-1 leading-snug'>
-              Tea Plucking <br /> Experience
+              Tea Plucking Experience
             </h3>
             <p className='text-gray-600 text-sm leading-relaxed'>
               Feel the joy of plucking <br /> fresh tea leaves with <br /> our
@@ -63,7 +63,8 @@ const ExperienceCards = () => {
               Tea Tasting Session
             </h3>
             <p className='text-gray-600 text-sm leading-relaxed'>
-              Taste the finest premium teas harvested straight from our estate.
+              Taste the finest premium teas harvested straight from <br /> our
+              estate.
             </p>
           </div>
           <img
@@ -84,8 +85,8 @@ const ExperienceCards = () => {
               Nature Walk
             </h3>
             <p className='text-gray-600 text-sm leading-relaxed'>
-              Explore the breathtaking beauty of <br /> lush tea gardens &
-              scenic hills.
+              Explore the breathtaking <br /> beauty of lush tea gardens <br />{" "}
+              & scenic hills.
             </p>
           </div>
           <img

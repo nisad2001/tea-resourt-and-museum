@@ -30,7 +30,7 @@ const GalleryBanner = () => {
               Home
             </Link>
 
-            <span className='text-gray-400 font-bold'>&gt;</span>
+            <span className='text-white font-bold'>&gt;</span>
 
             <button className='transition-colors duration-200 hover:text-green-500 cursor-pointer font-semibold text-green-400'>
               Gallery

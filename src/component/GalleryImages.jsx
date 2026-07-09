@@ -1,6 +1,6 @@
 const GalleryImages = () => {
   return (
-    <div className='my-12 px-4 sm:px-6 lg:px-8'>
+    <div className='my-8 px-4 sm:px-6 lg:px-8'>
       <div className='max-w-5xl mx-auto flex flex-wrap justify-center gap-2 md:gap-4 mb-10'>
         <button className='px-5 py-2 rounded-sm font-medium bg-green-600 text-white border-green-600 shadow-md'>
           All
