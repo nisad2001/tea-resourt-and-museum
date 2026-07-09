@@ -44,7 +44,7 @@ const EventOccassion = () => {
             <h3 className='card-title text-base md:text-lg font-bold text-green-900'>
               Wedding
             </h3>
-            <p className='text-gray-600 text-xs md:text-2xl leading-relaxed mb-2'>
+            <p className='text-gray-600 text-xs md:text-xl leading-relaxed mb-2'>
               Make your special day truly magical with our beautiful venues.
             </p>
             <button className='px-6 py-2 bg-green-600 text-white text-xs font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-200 flex items-center gap-2 group'>
@@ -69,7 +69,7 @@ const EventOccassion = () => {
             <h3 className='card-title text-base md:text-lg font-bold text-green-900'>
               Corporate
             </h3>
-            <p className='text-gray-600 text-xs md:text-2xl leading-relaxed mb-2'>
+            <p className='text-gray-600 text-xs md:text-xl leading-relaxed mb-2'>
               Host successful meetings and conferences in our serene
               environment.
             </p>
@@ -95,7 +95,7 @@ const EventOccassion = () => {
             <h3 className='card-title text-base md:text-lg font-bold text-green-900'>
               Private Party
             </h3>
-            <p className='text-gray-600 text-xs md:text-2xl leading-relaxed mb-2'>
+            <p className='text-gray-600 text-xs md:text-xl leading-relaxed mb-2'>
               Celebrate birthdays and special moments with your loved ones.
             </p>
             <button className='px-6 py-2 bg-green-600 text-white text-xs font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-200 flex items-center gap-2 group'>
@@ -120,7 +120,7 @@ const EventOccassion = () => {
             <h3 className='card-title text-base md:text-lg font-bold text-green-900'>
               Cultural
             </h3>
-            <p className='text-gray-600 text-xs md:text-2xl leading-relaxed mb-2'>
+            <p className='text-gray-600 text-xs md:text-xl leading-relaxed mb-2'>
               Experience local music, dance, and traditional celebrations.
             </p>
             <button className='px-6 py-2 bg-green-600 text-white text-xs font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-200 flex items-center gap-2 group'>
@@ -145,7 +145,7 @@ const EventOccassion = () => {
             <h3 className='card-title text-base md:text-lg font-bold text-green-900'>
               Exhibitions
             </h3>
-            <p className='text-gray-600 text-xs md:text-2xl leading-relaxed mb-2'>
+            <p className='text-gray-600 text-xs md:text-xl leading-relaxed mb-2'>
               Ideal venue for product launches and brand promotions.
             </p>
             <button className='px-6 py-2 bg-green-600 text-white text-xs font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-200 flex items-center gap-2 group'>
@@ -170,7 +170,7 @@ const EventOccassion = () => {
             <h3 className='card-title text-base md:text-lg font-bold text-green-900'>
               Special
             </h3>
-            <p className='text-gray-600 text-xs md:text-2xl leading-relaxed mb-2'>
+            <p className='text-gray-600 text-xs md:text-xl leading-relaxed mb-2'>
               From romantic dinners to festive gatherings, we create memories.
             </p>
             <button className='px-6 py-2 bg-green-600 text-white text-xs font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-200 flex items-center gap-2 group'>
