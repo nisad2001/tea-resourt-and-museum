@@ -1,22 +1,22 @@
-import { BsCupHot } from "react-icons/bs";
-import { FaCanadianMapleLeaf } from "react-icons/fa";
 import { GiChestnutLeaf, GiGasStove, GiMushroomHouse } from "react-icons/gi";
 import { IoIosArrowRoundForward as ArrowIcon } from "react-icons/io";
 import { MdOutlineMuseum, MdRestaurantMenu } from "react-icons/md";
 import { SiMusicbrainz } from "react-icons/si";
+import { BsCupHot } from "react-icons/bs";
+import { FaCanadianMapleLeaf } from "react-icons/fa6";
 import { CiFaceFrown } from "react-icons/ci";
 
 const DiningMenu = () => {
   return (
-    <div className='w-full max-w-screen-xl mx-auto py-4'>
+    <div className='w-full max-w-screen-xl mx-auto py-4 px-4 md:px-12'>
       <div className='flex flex-col lg:flex-row gap-8 items-center justify-between'>
         <div className='w-full lg:w-1/3 text-center lg:text-left'>
           <GiChestnutLeaf className='text-green-600 text-xl animate-pulse mb-2 mx-auto lg:mx-0' />
-          <h1 className='text-3xl sm:text-4xl font-bold text-green-900 mt-1 mb-4'>
+          <h1 className='text-3xl sm:text-4xl font-bold text-green-900 mt-1 mb-4 break-words'>
             Taste the finest flavour of bangladesh
           </h1>
 
-          <p className='text-gray-600 mb-6 text-sm md:text-base leading-relaxed'>
+          <p className='text-gray-600 mb-6 text-sm md:text-base leading-relaxed break-words'>
             A tea Resort & museum we offer a delightful culinary experience that
             blend Authentic Bangladesh flavour with international cuisine
             crafted with the freshest local source ingredients.
@@ -26,7 +26,7 @@ const DiningMenu = () => {
           </button>
         </div>
 
-        <div className='w-full lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2'>
+        <div className='w-full lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6'>
           <div className='card bg-base-100 shadow-xl rounded-2xl overflow-visible relative items-center text-center hover:scale-105 transition-all duration-300 cursor-pointer'>
             <figure className='h-40 w-full'>
               <img
@@ -38,11 +38,11 @@ const DiningMenu = () => {
             <div className='absolute top-32 left-1/2 transform -translate-x-1/2 bg-green-900 text-white p-3 rounded-full shadow-lg z-10'>
               <MdRestaurantMenu className='text-2xl' />
             </div>
-            <div className='card-body  items-center'>
-              <h3 className='card-title text-lg font-bold text-green-900'>
+            <div className='card-body items-center w-full'>
+              <h3 className='card-title text-lg font-bold text-green-900 break-words'>
                 Main Restaurent
               </h3>
-              <p className='text-gray-600 text-xs'>
+              <p className='text-gray-600 text-xs break-words'>
                 A cozy indoor dining with a wide range of local & international
                 dishing
               </p>
@@ -60,11 +60,11 @@ const DiningMenu = () => {
             <div className='absolute top-32 left-1/2 transform -translate-x-1/2 bg-green-900 text-white p-3 rounded-full shadow-lg z-10'>
               <MdOutlineMuseum className='text-2xl' />
             </div>
-            <div className='card-body  items-center'>
-              <h3 className='card-title text-lg font-bold text-green-900'>
+            <div className='card-body items-center w-full'>
+              <h3 className='card-title text-lg font-bold text-green-900 break-words'>
                 Garden Terrace
               </h3>
-              <p className='text-gray-600 text-xs'>
+              <p className='text-gray-600 text-xs break-words'>
                 Enjoy your meal amidest lush green tea garden and refreshing
                 breezes
               </p>
@@ -82,11 +82,11 @@ const DiningMenu = () => {
             <div className='absolute top-32 left-1/2 transform -translate-x-1/2 bg-green-900 text-white p-3 rounded-full shadow-lg z-10'>
               <SiMusicbrainz className='text-2xl' />
             </div>
-            <div className='card-body  items-center'>
-              <h3 className='card-title text-lg font-bold text-green-900'>
+            <div className='card-body items-center w-full'>
+              <h3 className='card-title text-lg font-bold text-green-900 break-words'>
                 Tea Lounge
               </h3>
-              <p className='text-gray-600 text-xs'>
+              <p className='text-gray-600 text-xs break-words'>
                 Reluxe with a cup of premium teaand tight snacks in a peaceful
                 ambience
               </p>
@@ -104,11 +104,11 @@ const DiningMenu = () => {
             <div className='absolute top-32 left-1/2 transform -translate-x-1/2 bg-green-900 text-white p-3 rounded-full shadow-lg z-10'>
               <GiMushroomHouse className='text-2xl' />
             </div>
-            <div className='card-body  items-center'>
-              <h3 className='card-title text-lg font-bold text-green-900'>
+            <div className='card-body items-center w-full'>
+              <h3 className='card-title text-lg font-bold text-green-900 break-words'>
                 Private Dining
               </h3>
-              <p className='text-gray-600 text-xs'>
+              <p className='text-gray-600 text-xs break-words'>
                 Perfect for special occassions and private events with
                 personalized service
               </p>
@@ -117,15 +117,15 @@ const DiningMenu = () => {
         </div>
       </div>
 
-      <div className='w-full lg:max-w-7xl mx-auto shadow-xl bg-base-300 p-8 rounded-lg mt-8'>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4'>
+      <div className='w-full lg:max-w-7xl mx-auto shadow-xl bg-base-300 p-6 md:p-10 rounded-lg mt-8'>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6'>
           <div className='flex items-center gap-4 lg:border-r-2 border-gray-400'>
             <div className='text-green-900'>
               <FaCanadianMapleLeaf className='w-10 h-10' />
             </div>
-            <div>
-              <h3 className='text-sm font-bold'>Fresh and Local</h3>
-              <p className='text-gray-600 text-xs'>
+            <div className='w-full'>
+              <h3 className='text-sm font-bold break-words'>Fresh and Local</h3>
+              <p className='text-gray-600 text-xs break-words'>
                 We use locally sourced fresh and ingredient
               </p>
             </div>
@@ -135,9 +135,9 @@ const DiningMenu = () => {
             <div className='text-green-900'>
               <GiGasStove className='w-10 h-10' />
             </div>
-            <div>
-              <h3 className='text-sm font-bold'>Expert chefs</h3>
-              <p className='text-gray-600 text-xs'>
+            <div className='w-full'>
+              <h3 className='text-sm font-bold break-words'>Expert chefs</h3>
+              <p className='text-gray-600 text-xs break-words'>
                 Our experienced chefs craft every dish with passion
               </p>
             </div>
@@ -147,9 +147,9 @@ const DiningMenu = () => {
             <div className='text-green-900'>
               <BsCupHot className='w-10 h-10' />
             </div>
-            <div>
-              <h3 className='text-sm font-bold'>Diverse Menu</h3>
-              <p className='text-gray-600 text-xs'>
+            <div className='w-full'>
+              <h3 className='text-sm font-bold break-words'>Diverse Menu</h3>
+              <p className='text-gray-600 text-xs break-words'>
                 From Local delicasis to internationals favourites
               </p>
             </div>
@@ -159,9 +159,11 @@ const DiningMenu = () => {
             <div className='text-green-900'>
               <FaCanadianMapleLeaf className='w-10 h-10' />
             </div>
-            <div>
-              <h3 className='text-sm font-bold'>Healthy & Hygenic</h3>
-              <p className='text-gray-600 text-xs'>
+            <div className='w-full'>
+              <h3 className='text-sm font-bold break-words'>
+                Healthy & Hygenic
+              </h3>
+              <p className='text-gray-600 text-xs break-words'>
                 We ensure the highest standard Hygine
               </p>
             </div>
@@ -171,9 +173,11 @@ const DiningMenu = () => {
             <div className='text-green-900'>
               <CiFaceFrown className='w-10 h-10' />
             </div>
-            <div>
-              <h3 className='text-sm font-bold'>Memoreabel Experience</h3>
-              <p className='text-gray-600 text-xs'>
+            <div className='w-full'>
+              <h3 className='text-sm font-bold break-words'>
+                Memoreabel Experience
+              </h3>
+              <p className='text-gray-600 text-xs break-words'>
                 Great foon great ambience unforgottable moments
               </p>
             </div>

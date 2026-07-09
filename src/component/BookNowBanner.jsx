@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const BookNowBanner = () => {
   return (
-    <div className='relative w-full h-[200px] md:h-[400px] overflow-hidden shadow-lg'>
+    <div className='relative w-full h-[230px] md:h-[400px] overflow-hidden shadow-lg'>
       <img
         src='/asset/book-resort-banner.jpg'
         alt='Gallery Banner'
