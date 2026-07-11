@@ -1,4 +1,5 @@
 import { IoIosArrowRoundForward as ArrowIcon } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 
 const Banner = () => {
   const slides = [
@@ -60,9 +61,12 @@ const Banner = () => {
                     A Perfect Blend of Nature, heritage and luxury hospitality.
                   </p>
                   <div className='mt-4 flex flex-wrap gap-2'>
-                    <button className='btn btn-sm md:btn-md text-white bg-green-600 border-none uppercase hover:bg-green-700'>
+                    <NavLink
+                      to='/book'
+                      className='btn btn-sm md:btn-md text-white bg-green-600 border-none uppercase hover:bg-green-700'
+                    >
                       Book Your Stay <ArrowIcon className='text-lg' />
-                    </button>
+                    </NavLink>
                     <button className='btn btn-outline btn-sm md:btn-md text-white border-white uppercase hover:bg-white hover:text-black'>
                       Explore Museum
                     </button>
