@@ -1,6 +1,7 @@
 import { GiChestnutLeaf } from "react-icons/gi";
 import { IoIosArrowRoundForward as ArrowIcon } from "react-icons/io";
 import { MdBedroomParent } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -51,9 +52,12 @@ const Welcome = () => {
                 Comfortable room with modern amentites and <br /> garden view
               </p>
               <div className='card-actions justify-center mt-2'>
-                <button className='btn btn-xs btn-outline text-green-900 hover:bg-green-900 hover:text-white uppercase'>
+                <NavLink
+                  to='/stay'
+                  className='btn btn-xs btn-outline text-green-900 hover:bg-green-900 hover:text-white uppercase'
+                >
                   View Rooms
-                </button>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -79,9 +83,12 @@ const Welcome = () => {
                 industry.
               </p>
               <div className='card-actions justify-center mt-2'>
-                <button className='btn btn-xs btn-outline text-green-900 hover:bg-green-900 hover:text-white uppercase'>
+                <NavLink
+                  to='museum'
+                  className='btn btn-xs btn-outline text-green-900 hover:bg-green-900 hover:text-white uppercase'
+                >
                   Explor Museum
-                </button>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -106,9 +113,12 @@ const Welcome = () => {
                 Tea Placking Factory tour testing and memoreabel moments
               </p>
               <div className='card-actions justify-center mt-2'>
-                <button className='btn btn-xs btn-outline text-green-900 hover:bg-green-900 hover:text-white uppercase'>
+                <NavLink
+                  to='/experience'
+                  className='btn btn-xs btn-outline text-green-900 hover:bg-green-900 hover:text-white uppercase'
+                >
                   Explore Experience
-                </button>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -134,9 +144,12 @@ const Welcome = () => {
                 option.
               </p>
               <div className='card-actions justify-center mt-2'>
-                <button className='btn btn-xs btn-outline text-green-900 hover:bg-green-900 hover:text-white uppercase'>
+                <NavLink
+                  to='/dining'
+                  className='btn btn-xs btn-outline text-green-900 hover:bg-green-900 hover:text-white uppercase'
+                >
                   View Menu
-                </button>
+                </NavLink>
               </div>
             </div>
           </div>
